@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+
+# Dataset folders
+data/
+datasets/
+utkcropped/
+
+# ===============================
+# Explicitly Ignored Project Files
+# ===============================
+
+# FER CSV files
+Facial-Emotion-Recognition-PyTorch-ONNX/train_ferplus.csv
+Facial-Emotion-Recognition-PyTorch-ONNX/PyTorch/total_ferplus.csv
+Facial-Emotion-Recognition-PyTorch-ONNX/PyTorch/train/train.csv
+Facial-Emotion-Recognition-PyTorch-ONNX/PyTorch/test/test.csv
+
+# Age dataset folder
+Facial_Age_estimation_PyTorch/utkcropped/
+
+# Checkpoints
+Facial_Age_estimation_PyTorch/checkpoints/
+Facial-Emotion-Recognition-PyTorch-ONNX/PyTorch/models/FER_trained_model.pt
+Facial-Emotion-Recognition-PyTorch-ONNX/PyTorch/best_model.pt
+
+# (Optional) Ignore all model folder except xml
+Facial-Emotion-Recognition-PyTorch-ONNX/PyTorch/models/*.pt
+
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Matplotlib cache
+.matplotlib/
