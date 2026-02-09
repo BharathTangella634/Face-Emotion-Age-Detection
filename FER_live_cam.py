@@ -152,7 +152,8 @@ def FER_live_cam():
     ])
 
     # Webcam (IP stream)
-    cap = cv2.VideoCapture("http://172.25.109.99:5000/video")
+    # cap = cv2.VideoCapture("http://Your IP:5000/video")
+    cap = cv2.VideoCapture(0)
     cv2.namedWindow("frame", cv2.WINDOW_NORMAL)
     cv2.setWindowProperty("frame", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
